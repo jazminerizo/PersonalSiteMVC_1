@@ -116,12 +116,14 @@ h5 {
   margin-bottom: 15px; }
 
 h6 {
-  font-size: 16px;
-  letter-spacing: 1.5px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #c8a482;
-  margin-bottom: 33px; }
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(109, 182, 199);
+    margin-bottom: 33px;
+   
+}
 
 p {
   font-size: 16px;
@@ -360,18 +362,19 @@ p {
 }
 
 .fixed-bg-overlay {
-  background: rgba(201, 164, 130, 0.85);
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  -moz-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  position: fixed;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden; }
+    background: rgba(109, 182, 199, 0.85);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    position: fixed;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
 
 /********About Sec CSS********/
 .content-block {
@@ -403,32 +406,33 @@ p {
 
 /********Header Sec CSS********/
 .btn {
-  font-size: 11px;
-  font-weight: 500;
-  color: #fff;
-  letter-spacing: 1.5px;
-  overflow: hidden;
-  position: relative;
-  text-transform: uppercase;
-  height: 37px;
-  background: #303133;
-  outline: none;
-  border: none;
-  border-radius: 2px;
-  padding: 7px 20px;
-  -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-  -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-  -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
-  transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s; }
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1.5px;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+    height: 37px;
+    background: black;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 7px 20px;
+    -moz-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
   .btn .btn-label {
     padding: 4px 0; }
   .btn:hover, .btn:focus, .btn:active {
-    background: #303133 !important;
+    background: rgb(109, 182, 199);
     outline: none !important;
     border: none !important;
     color: #fff !important; }
   .btn:hover {
-    color: #303133 !important; }
+    color: rgb(109, 182, 199) !important; }
   .btn span {
     position: relative;
     z-index: 2;

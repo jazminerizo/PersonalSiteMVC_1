@@ -26,5 +26,17 @@ namespace PersonalSiteMVC_1.Controllers
 
             return View();
         }
+
+        public ActionResult Resume()
+        {
+            return View();
+        }
+
+        public ActionResult Links()
+        {
+            return View();
+        }
+
+        
     }
 }
