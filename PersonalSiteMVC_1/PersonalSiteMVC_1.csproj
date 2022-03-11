@@ -149,6 +149,9 @@
     <Content Include="Content\css\photoswipe.css" />
     <Content Include="Content\css\style.css" />
     <Content Include="Content\custom.css" />
+    <Content Include="Content\img\2505c4fb0d1e6d6edf33f33f687db773.jpg" />
+    <Content Include="Content\img\95A2D63B-CCC0-44F9-AEBD-EFEA4CC56A31.JPEG" />
+    <Content Include="Content\img\b994f5aa16c779bd39aa506da28a9921.jpg" />
     <Content Include="Content\img\candidate.png" />
     <Content Include="Content\img\client1.png" />
     <Content Include="Content\img\client2.png" />
@@ -157,6 +160,10 @@
     <Content Include="Content\img\client5.png" />
     <Content Include="Content\img\connor.jpg" />
     <Content Include="Content\img\controls.png" />
+    <Content Include="Content\img\desk.jpg" />
+    <Content Include="Content\img\desk3.jpg" />
+    <Content Include="Content\img\desk4.jpg" />
+    <Content Include="Content\img\desk5.jpg" />
     <Content Include="Content\img\ian.jpg" />
     <Content Include="Content\img\IMG_2513.JPG" />
     <Content Include="Content\img\kayla.jpg" />
