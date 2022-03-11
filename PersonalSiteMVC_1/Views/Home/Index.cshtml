@@ -1,6 +1,6 @@
 ﻿
 @{
-    ViewBag.Title = "Jazmine Rizo";
+    ViewBag.Title = "";
 }
 
 <h2>@ViewBag.Title</h2>
@@ -11,57 +11,65 @@
     <section id="intro_content_sec" class="col-lg-10 col-md-11 col-sm-11 center-div intro-content-wrap sec-pad">
         <div class="person-img margin-bottom-xs"></div>
         <h1>
-            Hiya!<span id="typed"></span>
+            Hi!
+            <br />My name is Jazmine Rizo,
+            <br />a Full Stack Web Developer living in Kansas City.<span @*id="typed*@></span>
         </h1>
         <h6>
             about
         </h6>
         <p class="pad-bottom-35 wow fadeInUp" data-wow-duration=".6s">
-            Award winning interdisciplinary Designer & Photographer. Currently pursuing a perfect blend of style and function for a wide range of interactive graphic design. For the past 6 years I've helped global companies, organizations and start-ups reach business goals with user focused, interactive design. I enjoy bringing clarity to complex problems with a people first approach.
-        </p>
-        <p class="wow fadeInUp" data-wow-duration=".4s">
-            I am a complete social animal. Find my work on <a class="goto-social" href="#" target="_blank">Behance</a> & <a href="#" class="goto-social" target="_blank">Dribbble</a>. Experience my photography skills on <a href="#" class="goto-social" target="_blank">Instagram</a> & <a class="goto-social" href="#" target="_blank">Flickr</a>.
+            <em>I'm an innovative and deadline-driven Full Stack Web Developer with 5 months of hard work and dedication to learning and developing in many languages while creating secure applications from initial concept to final, polished and deliverable!</em>
 
         </p>
-        <div class="per-signature margin-top-sm wow fadeInUp" data-wow-duration=".4s">
+
+        <!-- #region Para/Img -->
+        @*<p class="wow fadeInUp" data-wow-duration=".4s">
+            I am a complete social animal. Find my work on <a class="goto-social" href="#" target="_blank">Behance</a> & <a href="#" class="goto-social" target="_blank">Dribbble</a>. Experience my photography skills on <a href="#" class="goto-social" target="_blank">Instagram</a> & <a class="goto-social" href="#" target="_blank">Flickr</a>.
+
+        </p>*@
+        @*<div class="per-signature margin-top-sm wow fadeInUp" data-wow-duration=".4s">
             <img class="img-responsive" src="~/Content/img/signature.png" alt="signature" />
-        </div>
+        </div>*@
+        <!-- #endregion -->
     </section>
     <!--/Introduction Sec-->
 
     <hr class="separater-hr" />
 
+    <!-- #region Services -->
     <!--WhatWeDo Sec-->
-    <section id="services_sec" class="col-lg-10 col-md-11 col-sm-11 center-div services-icon-wrap  sec-pad-top sec-pad-bottom-xs">
-        <h6>what i do</h6>
-        <div class="row">
-            <div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay="0s">
-                <span class="icon pe-7s-network"></span>
-                <span class="key-fact">
-                    PROTOTYPING
-                </span>
+    @*<section id="services_sec" class="col-lg-10 col-md-11 col-sm-11 center-div services-icon-wrap  sec-pad-top sec-pad-bottom-xs">
+            <h6>what i do</h6>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay="0s">
+                    <span class="icon pe-7s-network"></span>
+                    <span class="key-fact">
+                        PROTOTYPING
+                    </span>
+                </div>
+                <div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".1s">
+                    <span class="icon pe-7s-vector"></span>
+                    <span class="key-fact">
+                        DESIGNING
+                    </span>
+                </div>
+                <div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".2s">
+                    <span class=" icon pe-7s-camera"></span>
+                    <span class="key-fact">
+                        PHOTOGRAPHY
+                    </span>
+                </div>
+                <div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".3s">
+                    <span class="icon pe-7s-portfolio"></span>
+                    <span class="key-fact">
+                        MANAGEMENT
+                    </span>
+                </div>
             </div>
-            <div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".1s">
-                <span class="icon pe-7s-vector"></span>
-                <span class="key-fact">
-                    DESIGNING
-                </span>
-            </div>
-            <div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".2s">
-                <span class=" icon pe-7s-camera"></span>
-                <span class="key-fact">
-                    PHOTOGRAPHY
-                </span>
-            </div>
-            <div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".3s">
-                <span class="icon pe-7s-portfolio"></span>
-                <span class="key-fact">
-                    MANAGEMENT
-                </span>
-            </div>
-        </div>
-    </section>
+        </section>*@
     <!--/WhatWeDo Sec-->
+    <!-- #endregion -->
 
     <hr class="separater-hr" />
 
@@ -69,11 +77,13 @@
     <section id="skill_sec" class="col-lg-10 col-md-11 col-sm-11 center-div skills-wrap  sec-pad-top sec-pad-bottom-xs">
         <h6>technical skills</h6>
         <p class="wow fadeInUp" data-wow-duration=".4s">
-            As a reluctant graphic designer, I fled from a traditional path and explored my creativity, trough trying my hands on various techniques and software. Software is more than just a tool, and I try to dig deep into it. Today, I knack for critical thinking, empathy and creativity to create viable and impactful solutions using these technologies.
+            @*As a reluctant graphic designer, I fled from a traditional path and explored my creativity, trough trying my hands on various techniques and software. Software is more than just a tool, and I try to dig deep into it. Today, I knack for critical thinking, empathy and creativity to create viable and impactful solutions using these technologies.*@
+            @*Here are some manifestations of my new skills shown in my many projects!<br />You will see a clear and steady progreesion from my very first project using only HTML and CSS, to my most current Full Stack Web applications implemening client-side, middle tier and back-end languages and technologies.<br />
+            <br />It excites me so much, seeing a visual representation of my progress!<br />And it only gets better from here!*@
         </p>
         <div class="row margin-top-40">
             <div class="col-sm-5 margin-bottom-sm">
-                <span class="progress-cat">PHOTOSHOP</span>
+                <span class="progress-cat">SQL</span>
                 <div class="progress-bar-graph">
                     <div class="progress-bar-wrap">
                         <div class="bar-wrap">
@@ -85,7 +95,7 @@
                 </div>
             </div>
             <div class="col-sm-offset-1 col-sm-5 margin-bottom-sm">
-                <span class="progress-cat">INDESIGN</span>
+                <span class="progress-cat">C#</span>
                 <div class="progress-bar-graph">
                     <div class="progress-bar-wrap">
                         <div class="bar-wrap">
@@ -98,7 +108,7 @@
             </div>
             <div class="clearfix"></div>
             <div class="col-sm-5 margin-bottom-sm">
-                <span class="progress-cat">SKETCH</span>
+                <span class="progress-cat">HTML/CSS</span>
                 <div class="progress-bar-graph">
                     <div class="progress-bar-wrap">
                         <div class="bar-wrap">
@@ -110,7 +120,7 @@
                 </div>
             </div>
             <div class="col-sm-offset-1 col-sm-5 margin-bottom-sm">
-                <span class="progress-cat">KEYNOTE</span>
+                <span class="progress-cat">JavaScript</span>
                 <div class="progress-bar-graph">
                     <div class="progress-bar-wrap">
                         <div class="bar-wrap">
@@ -123,7 +133,7 @@
             </div>
             <div class="clearfix"></div>
             <div class="col-sm-5 margin-bottom-sm">
-                <span class="progress-cat">ILLUSTRATOR</span>
+                <span class="progress-cat">MVC</span>
                 <div class="progress-bar-graph">
                     <div class="progress-bar-wrap">
                         <div class="bar-wrap">
@@ -135,7 +145,7 @@
                 </div>
             </div>
             <div class="col-sm-offset-1 col-sm-5 margin-bottom-sm">
-                <span class="progress-cat">LIGHTHOUSE</span>
+                <span class="progress-cat">jQuery</span>
                 <div class="progress-bar-graph">
                     <div class="progress-bar-wrap">
                         <div class="bar-wrap">
@@ -157,47 +167,54 @@
 
     <!--Work Sec-->
     <section id="work_sec" class="col-lg-10 col-md-11 col-sm-11 center-div skills-wrap  sec-pad">
-        <h6>work</h6>
+        <h6>Portfolio Projects</h6>
+
+        <p class="wow fadeInUp" data-wow-duration=".4s">
+            Here are some manifestations of my new skills shown in my many projects!<br />You will see a clear and steady progression from my very first project using only HTML and CSS, to my most current Full Stack Web applications implemening client-side, middle tier and back-end languages and technologies.<br />
+            <br />It excites me so much, seeing a visual representation of my progress!<br />And it only gets better from here!<br />
+            <br />
+            <br />
+        </p>
 
         <div id="portfolio-wrap" class="padding-sec-lg">
             <ul id="portfolio" class="auto-construct  project-gallery" data-col="2">
                 <li class="item tall" data-src="~/Content/img/mock1.jpg" data-sub-html="<h6>Bagwati</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
                     <a href="">
                         <img class="img-responsive" src="~/Content/img/mock1.jpg" alt="Image description" />
-                        <span class="hover-cap">Bagwati</span>
+                        <span class="hover-cap">Studio Project</span>
                     </a>
                 </li>
                 <li class="item small" data-src="http://www.youtube.com/watch?v=Pq9yPrLWMyU" data-poster="img/mock2.jpg" data-sub-html="<h6>Not a Keyboard</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
                     <a href="">
                         <img class="img-responsive" src="~/Content/img/mock2.jpg" alt="Image description" />
-                        <span class="hover-cap">Not a Keyboard</span>
+                        <span class="hover-cap">Dungeoon Application</span>
                     </a>
                 </li>
                 <li class="item tall" data-src="~/Content/img/mock4.jpg" data-sub-html="<h6>Into the Woods</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
                     <a href="">
                         <img class="img-responsive" src="~/Content/img/mock4.jpg" alt="Image description" />
-                        <span class="hover-cap">Into the Woods</span>
+                        <span class="hover-cap">Personal Site</span>
                     </a>
                 </li>
                 <li class="item small" data-src="http://vimeo.com/1084537" data-poster="img/mock3.jpg" data-sub-html="<h6>Ultra Saffire</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
                     <a href="">
                         <img class="img-responsive" src="~/Content/img/mock3.jpg" alt="Image description" />
-                        <span class="hover-cap"> Ultra Saffire</span>
+                        <span class="hover-cap">Personal Site MVC</span>
                     </a>
                 </li>
 
                 <li class="item" data-src="~/Content/img/mock5.jpg" data-sub-html="<h6>Happy Puppy</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
                     <a href="">
                         <img class="img-responsive" src="~/Content/img/mock5.jpg" alt="Image description" />
-                        <span class="hover-cap">Happy Puppy</span>
+                        <span class="hover-cap">Store Front Application</span>
                     </a>
                 </li>
-                <li class="item" data-html="#video1" data-poster="~/Content/img/mock6.jpg" data-sub-html="<h6>Wooden Closet</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+                @*<li class="item" data-html="#video1" data-poster="~/Content/img/mock6.jpg" data-sub-html="<h6>Wooden Closet</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
                     <a href="">
                         <img class="img-responsive" src="~/Content/img/mock6.jpg" alt="Image description" />
                         <span class="hover-cap">Wooden Closet</span>
                     </a>
-                </li>
+                </li>*@
 
             </ul>
             <!-- Hidden video div -->
@@ -368,14 +385,27 @@
 
     <!--Client Sec-->
     <section id="client_sec" class="col-lg-10 col-md-11 col-sm-11 center-div client-wrap  sec-pad wow bounceIn" data-wow-duration=".4s">
-        <h6>clients</h6>
+        <h6>Links</h6>
         <div class="client-carousel">
-            <img src="~/Content/img/client1.png" alt="client">
-            <img src="~/Content/img/client2.png" alt="client">
-            <img src="~/Content/img/client3.png" alt="client">
-            <img src="~/Content/img/client4.png" alt="client">
-            <img src="~/Content/img/client5.png" alt="client">
-            <img src="~/Content/img/client2.png" alt="client">
+            @*<img src="~/Content/img/client1.png" alt="client">*@
+            <a href="https://www.linkedin.com/in/zakary-sisler" target="_blank">
+                <img src="~/Content/img/zak.jpg" alt="client">
+            </a>
+            <a href="https://www.linkedin.com/in/ian-mcclaflin-982755232" target="_blank">
+                <img src="~/Content/img/ian.jpg" alt="client">
+            </a>
+            <a href="https://www.linkedin.com/in/kayla-n-nguyen" target="_blank">
+                <img src="~/Content/img/kayla.jpg" alt="client">
+            </a>
+            <a href="https://www.linkedin.com/in/michael-redifer-202288232" target="_blank">
+                <img src="~/Content/img/michael_redifer.jpg" alt="client">
+            </a>
+            <a href="https://www.linkedin.com/in/sean-a-mckinney" target="_blank">
+                <img src="~/Content/img/sean.jpg" alt="client">
+            </a>
+            <a href="https://www.linkedin.com/in/connor-dunn-396188233" target="_blank">
+                <img src="~/Content/img/connor.jpg" alt="client">
+            </a>
         </div>
     </section>
     <!--/Client Sec-->
@@ -383,34 +413,36 @@
     <hr class="separater-hr" />
 
     <!--Achivement Sec-->
-    <section id="achivement_sec" class="col-lg-10 col-md-11 col-sm-11 center-div achivement-wrap  sec-pad-top sec-pad-bottom-sm">
-        <h6>achivements</h6>
-        <p class="wow fadeInUp" data-wow-duration=".4s">It always seems impossible until its done. Participated in more than 100 contests run online and run by government. I got first prize for Logo Design done for a Fashion Brand in 2015, the ceremony held in Germany.</p>
-        <div class="achivement-list-wrap margin-top-40">
-            <ul class="row">
-                <li class="col-sm-6">
-                    <ul>
-                        <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay="0s">
-                            <span class="dash-pointer">-</span>
-                            <span class="achive-pts">First Price for Logo Design in Berman Design Award</span>
-                        </li>
-                        <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".2s"><span class="dash-pointer">-</span><span class="achive-pts">Honorable Mention at International Design Awards</span></li>
-                        <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".4s"><span class="dash-pointer">-</span><span class="achive-pts">AICB New York, USA</span></li>
-                        <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".6s"><span class="dash-pointer">-</span><span class="achive-pts">International CNDY Awards New York, USA</span></li>
-                    </ul>
-                </li>
-                <li class="col-sm-6">
-                    <ul>
-                        <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay="0s"><span class="dash-pointer">-</span><span class="achive-pts">Drix Club des Directeurs Artistiques Paris, France</span></li>
-                        <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay="0.2s"><span class="dash-pointer">-</span><span class="achive-pts">A&AD Awards (Yellow & Black Pencils) London, UK</span></li>
-                        <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".4s"><span class="dash-pointer">-</span><span class="achive-pts">Global Dffie Awards New York, USA</span></li>
-                        <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".6s"><span class="dash-pointer">-</span><span class="achive-pts">The Intercontinental Advertising Award (The Cup) (ICAA) Spain</span></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </section>
+    <!-- #region Achievements -->
+    @*<section id="achivement_sec" class="col-lg-10 col-md-11 col-sm-11 center-div achivement-wrap  sec-pad-top sec-pad-bottom-sm">
+            <h6>achivements</h6>
+            <p class="wow fadeInUp" data-wow-duration=".4s">It always seems impossible until its done. Participated in more than 100 contests run online and run by government. I got first prize for Logo Design done for a Fashion Brand in 2015, the ceremony held in Germany.</p>
+            <div class="achivement-list-wrap margin-top-40">
+                <ul class="row">
+                    <li class="col-sm-6">
+                        <ul>
+                            <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay="0s">
+                                <span class="dash-pointer">-</span>
+                                <span class="achive-pts">First Price for Logo Design in Berman Design Award</span>
+                            </li>
+                            <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".2s"><span class="dash-pointer">-</span><span class="achive-pts">Honorable Mention at International Design Awards</span></li>
+                            <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".4s"><span class="dash-pointer">-</span><span class="achive-pts">AICB New York, USA</span></li>
+                            <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".6s"><span class="dash-pointer">-</span><span class="achive-pts">International CNDY Awards New York, USA</span></li>
+                        </ul>
+                    </li>
+                    <li class="col-sm-6">
+                        <ul>
+                            <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay="0s"><span class="dash-pointer">-</span><span class="achive-pts">Drix Club des Directeurs Artistiques Paris, France</span></li>
+                            <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay="0.2s"><span class="dash-pointer">-</span><span class="achive-pts">A&AD Awards (Yellow & Black Pencils) London, UK</span></li>
+                            <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".4s"><span class="dash-pointer">-</span><span class="achive-pts">Global Dffie Awards New York, USA</span></li>
+                            <li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".6s"><span class="dash-pointer">-</span><span class="achive-pts">The Intercontinental Advertising Award (The Cup) (ICAA) Spain</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>*@
     <!--/Achivement Sec-->
+    <!-- #endregion -->
 
     <hr class="separater-hr" />
 
@@ -418,7 +450,7 @@
     <section id="contact_sec" class="col-lg-10 col-md-11 col-sm-11 center-div contact-wrap  sec-pad-top sec-pad-bottom-sm">
         <h6>contact</h6>
         <div data-ng-controller="ContactController" class="align-center wow fadeInUp" data-wow-duration=".4s">
-            <h3>Hello <span data-ng-bind="formData.inputName||'friend'"></span>, I'd love to hear from you.</h3>
+            <h3>Hello <span data-ng-bind="formData.inputName||'friend'"></span>, I'd love to hear from you!</h3>
             <div>
                 <form data-ng-submit="submit(contactform, $event)" name="contactform" method="post" class="row form-horizontal" role="form">
                     <div class="form-group input--hoshi col-sm-6" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
@@ -453,7 +485,7 @@
         </div>
 
         <div class="email-direct">
-            <p class="wow fadeInRight" data-wow-duration=".4s">Or simply email me at <a href="mailto:xyz@example.com">xyz@example.com</a></p>
+            <p class="wow fadeInRight" data-wow-duration=".4s">Or simply email me at <a href="mailto:jaztec.llc@gmail.com">jaztec.llc@gmail.com</a></p>
         </div>
     </section>
     <!--Contact Sec-->

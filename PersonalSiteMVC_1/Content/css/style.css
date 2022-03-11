@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*------------------------------------------------------------------
 [Master Stylesheet]
 Project:	Eric
@@ -340,23 +340,24 @@ p {
     transform: scale(1); } }
 /********Body Sec CSS********/
 .fixed-bg {
-  background: transparent url("../img/mainbg.jpg") no-repeat;
-  animation: 60s ease 0s normal none infinite back_ken;
-  -webkit-animation: 60s ease 0s normal none infinite back_ken;
-  image-rendering: optimizeQuality;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  position: fixed;
-  background-position: center;
-  background-size: cover;
-  -moz-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden; }
+    background: transparent url("../img/IMG_2513.JPG") no-repeat;
+    animation: 60s ease 0s normal none infinite back_ken;
+    -webkit-animation: 60s ease 0s normal none infinite back_ken;
+    image-rendering: optimizeQuality;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
 
 .fixed-bg-overlay {
   background: rgba(201, 164, 130, 0.85);
@@ -391,13 +392,14 @@ p {
     -ms-transform: translateX(0%);
     -webkit-transform: translateX(0%);
     transform: translateX(0%); }
-  .content-block .person-img {
-    height: 150px;
-    width: 150px;
-    background: url(../img/candidate.png);
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-size: cover; }
+    .content-block .person-img {
+        height: 150px;
+        width: 150px;
+        background: url(../img/IMG_2513.JPG);
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 /********Header Sec CSS********/
 .btn {
